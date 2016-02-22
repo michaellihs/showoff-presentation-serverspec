@@ -24,3 +24,10 @@
 
 [Infrastructure as Code](http://shop.oreilly.com/product/0636920039297.do)
 
+
+
+!SLIDE
+
+<img src="rspec.jpg" height="450px">
+
+[The RSpec Book](https://pragprog.com/book/achbd/the-rspec-book)
