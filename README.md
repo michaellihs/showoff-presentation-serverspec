@@ -4,6 +4,8 @@
 
 This repository contains a [showoff](https://github.com/puppetlabs/showoff) presentation about [Serverspec](http://serverspec.org/). The presentation was held during the DevOps Meetup Stuttgart, February 23rd, 2016.
 
+You can find an online version of the presentation here: [https://michaellihs.github.io/showoff-presentation-serverspec].
+
 
 
 ## Run the Presentation
