@@ -10,9 +10,3 @@
 
 * Most resources require `sudo` permissions
 * Problem for periodic monitoring
-
-
-
-!SLIDE
-
-# 
