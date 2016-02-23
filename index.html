@@ -246,6 +246,18 @@ Input target host name: server-name.tld</code></pre>
         └── sample_spec.rb</code></pre>
 </div>
 </div>
+<div id="installation_installation" class="slide code_slide" data-transition="none">
+<div class="content code_slide" ref="installation/installation/6">
+<h1>Pimp your</h1>
+
+<h1><code>~/.ssh/config</code></h1>
+
+<pre class="sh_xml"><code> Host server-name.tld
+   ForwardAgent yes
+   Port 9922
+   User root</code></pre>
+</div>
+</div>
 <div id="features_features" class="slide title_slide" data-transition="none">
 <div class="content title_slide" ref="features/features/1">
 <h1>Further Features</h1>
@@ -308,13 +320,13 @@ end</code></pre>
 <p>See <a href="http://serverspec.org/resource_types.html">http://serverspec.org/resource_types.html</a></p>
 </div>
 </div>
-<div id="advanced_usage_about_me" class="slide title_slide" data-transition="none">
-<div class="content title_slide" ref="advanced_usage/about_me/1">
+<div id="advanced_usage_advanced_usage" class="slide title_slide" data-transition="none">
+<div class="content title_slide" ref="advanced_usage/advanced_usage/1">
 <h1>(Advanced) Usage</h1>
 </div>
 </div>
-<div id="advanced_usage_about_me" class="slide " data-transition="none">
-<div class="content " ref="advanced_usage/about_me/2">
+<div id="advanced_usage_advanced_usage" class="slide " data-transition="none">
+<div class="content " ref="advanced_usage/advanced_usage/2">
 <h1>Behavior Driven <br> System Administration</h1>
 
 <ul>
@@ -324,8 +336,8 @@ end</code></pre>
 </ul>
 </div>
 </div>
-<div id="advanced_usage_about_me" class="slide " data-transition="none">
-<div class="content " ref="advanced_usage/about_me/3">
+<div id="advanced_usage_advanced_usage" class="slide " data-transition="none">
+<div class="content " ref="advanced_usage/advanced_usage/3">
 <h1>Test your (play|cook)books</h1>
 
 <ul>
@@ -336,8 +348,8 @@ end</code></pre>
 </ul>
 </div>
 </div>
-<div id="advanced_usage_about_me" class="slide " data-transition="none">
-<div class="content " ref="advanced_usage/about_me/4">
+<div id="advanced_usage_advanced_usage" class="slide " data-transition="none">
+<div class="content " ref="advanced_usage/advanced_usage/4">
 <h1>Monitoring</h1>
 
 <ul>
@@ -345,6 +357,38 @@ end</code></pre>
 <li>Have Jenkins run tests every X hours</li>
 <li>Set up a dashboard for results</li>
 </ul>
+</div>
+</div>
+<div id="advanced_usage_advanced_usage" class="slide " data-transition="none">
+<div class="content " ref="advanced_usage/advanced_usage/5">
+<h1>Test Kitchen</h1>
+
+<ul>
+<li>Orchestrate testing of infrastructure code on multiple platforms</li>
+<li>Easy configuration with <code>.kitchen.yml</code> file</li>
+<li>Great support for Chef cookbook testing</li>
+<li>see <a href="http://kitchen.ci/">http://kitchen.ci/</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="problems_problems" class="slide title_slide" data-transition="none">
+<div class="content title_slide" ref="problems/problems/1">
+<h1>Problems / Known Issues</h1>
+</div>
+</div>
+<div id="problems_problems" class="slide " data-transition="none">
+<div class="content " ref="problems/problems/2">
+<h1>root</h1>
+
+<ul>
+<li>Most resources require <code>sudo</code> permissions</li>
+<li>Problem for periodic monitoring</li>
+</ul>
+</div>
+</div>
+<div id="problems_problems" class="slide " data-transition="none">
+<div class="content " ref="problems/problems/3">
 </div>
 </div>
 <div id="resources_resources" class="slide title_slide" data-transition="none">
@@ -378,6 +422,18 @@ end</code></pre>
 <p><img src="./file/resources/rspec.jpg" height="450px"></p>
 
 <p><a href="https://pragprog.com/book/achbd/the-rspec-book">The RSpec Book</a></p>
+</div>
+</div>
+<div id="resources_resources" class="slide " data-transition="none">
+<div class="content " ref="resources/resources/6">
+<h1>Links</h1>
+
+<ul>
+<li><a href="http://rspec.info/">http://rspec.info/</a></li>
+<li><a href="http://serverspec.org/">http://serverspec.org/</a></li>
+<li><a href="https://github.com/ruby/rake">https://github.com/ruby/rake</a></li>
+<li><a href="http://kitchen.ci/">http://kitchen.ci/</a></li>
+</ul>
 </div>
 </div>
 
