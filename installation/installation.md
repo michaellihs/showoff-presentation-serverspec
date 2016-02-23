@@ -68,3 +68,16 @@
         ├── spec_helper.rb
         └── server-name.tld
             └── sample_spec.rb
+
+
+
+!SLIDE code_slide
+
+# Pimp your
+# `~/.ssh/config`
+
+    @@@ xml
+     Host server-name.tld
+       ForwardAgent yes
+       Port 9922
+       User root

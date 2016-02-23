@@ -32,3 +32,14 @@
 * Write tests
 * Have Jenkins run tests every X hours
 * Set up a dashboard for results
+
+
+
+!SLIDE
+
+# Test Kitchen
+
+* Orchestrate testing of infrastructure code on multiple platforms
+* Easy configuration with `.kitchen.yml` file
+* Great support for Chef cookbook testing
+* see [http://kitchen.ci/](http://kitchen.ci/)

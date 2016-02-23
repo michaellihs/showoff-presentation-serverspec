@@ -31,3 +31,14 @@
 <img src="rspec.jpg" height="450px">
 
 [The RSpec Book](https://pragprog.com/book/achbd/the-rspec-book)
+
+
+
+!SLIDE
+
+# Links
+
+* [http://rspec.info/](http://rspec.info/)
+* [http://serverspec.org/](http://serverspec.org/)
+* [https://github.com/ruby/rake](https://github.com/ruby/rake)
+* [http://kitchen.ci/](http://kitchen.ci/)
